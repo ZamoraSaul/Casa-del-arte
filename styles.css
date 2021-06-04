@@ -136,18 +136,37 @@ h1{
     color: white;
 }
 .servicio{
+    display: flex;
     margin: 0 auto; 
     margin-top: 54px;
     border: black 1px solid;
-    width: 75%;
-    height: 500px;
-    align-items: center;
+    width: 90%;
+    height: 450px;
     justify-content: center;
+    
 }
 .servicioTitulo{
     font-family: Raleway;
-    font-weight: 500;
-    font-size: 3em;
+    font-weight: 600;
+    font-size: 4rem;
     text-align: center;
-    
+    margin-top: 45px;
+    margin-bottom: 35px;
+
+}
+.servicioSubtitulo{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    letter-spacing: 15px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.servicioParrafo{
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 32px;
+    margin-top: 46px;
 }
